@@ -8,6 +8,11 @@ export default defineConfig({
     tailwindcss()
   ],
   optimizeDeps: {
-    include: ['react-fast-marquee']
+    include: [
+      'react-fast-marquee',
+      'react-icons/fa',
+      'react-icons/md',
+      'react-icons/io5'
+    ]
   }
 })

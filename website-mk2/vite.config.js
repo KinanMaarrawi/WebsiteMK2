@@ -14,5 +14,14 @@ export default defineConfig({
       'react-icons/md',
       'react-icons/io5'
     ]
+  },
+  build: {
+    rollupOptions: {
+      external: [
+        'react-icons/fa',
+        'react-icons/md',
+        'react-icons/io5'
+      ]
+    }
   }
 })

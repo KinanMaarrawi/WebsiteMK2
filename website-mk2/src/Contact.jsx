@@ -1,5 +1,5 @@
-import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa/index.js";
+import { FaLinkedin } from "react-icons/fa/index.js";
 import { MdOutlineEmail } from "react-icons/md";
 import { IoDocumentAttachOutline } from "react-icons/io5";
 import {motion} from 'motion/react';
